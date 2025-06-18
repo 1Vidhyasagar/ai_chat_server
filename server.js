@@ -7,7 +7,7 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors()); // Allows requests from different origin
+app.use(cors()); 
 app.use(express.json());
 
 app.post("/api/ai", async (req, res) => {
